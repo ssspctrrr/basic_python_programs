@@ -7,3 +7,4 @@ for i in range(1, 3):
     numbers.append(int(input(f"Enter number {i}: ")))
 
 # print list of numbers between first_number and second_number
+print(list(range(numbers[0] + 1, numbers[1])))
