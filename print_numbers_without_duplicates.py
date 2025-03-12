@@ -7,5 +7,7 @@ for i in range(1, 11):
     numbers.append(int(input(f"Enter numbers {i}: ")))
 
 # iterate over the values of numbers
+for number in numbers:
+    print(number)
     # check if current value is unique in numbers
         # print if true
