@@ -7,4 +7,6 @@ for i in range(1, 3):
     numbers.append(int(input(f"Enter number {i}: ")))
 
 # if first_number is equal to second_number
+if numbers[0] == numbers[1]:
     # print "Equal"
+    print("Equal")
