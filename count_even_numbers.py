@@ -5,9 +5,11 @@ count_even = 0
 for i in range(1, 11):
     # input number
     number = int(input(f"Enter number {i}: "))
-    print(number)
 
     # check if number is even
+    if number % 2 == 0:
         # add 1 to count_even if true
+        count_even += 1
 
 # print count_even
+print(count_even)
