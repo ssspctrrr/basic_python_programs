@@ -6,7 +6,5 @@ for i in range(1, 11):
     # input and append number to numbers array
     numbers.append(int(input(f"Enter number {i}: ")))
 
-print(numbers)
-
-# sum first_number to tenth_number
-# print the sum
+# print the sum of first_number to tenth_number
+print(sum(numbers))
