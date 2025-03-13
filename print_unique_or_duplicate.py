@@ -9,8 +9,14 @@ while True:
         number = int(input("Enter number: "))
 
         # check if number is in numbers array
+        if number not in numbers:
             # print "Unique" if true
+            print("Unique")
             # append to numbers if true
+            numbers.append(number)
+
+        print(numbers)
+            
         # else if number is not in numbers array
             # print "Duplicate"
 
