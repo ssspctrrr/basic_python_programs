@@ -1,6 +1,9 @@
 # define numbers array
+numbers = []
 
 # loop while input is valid
+while True:
+    print("loop")
     # try if input is valid
         # input number
 
