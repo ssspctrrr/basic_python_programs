@@ -10,6 +10,7 @@ try:
 
 # catch error if input is invalid
 except:
-    print(numbers)
     # sort numbers highest to lowest
+    numbers.sort(reverse=True)
     # print sorted numbers
+    print(numbers)
