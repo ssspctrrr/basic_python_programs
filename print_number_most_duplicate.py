@@ -17,10 +17,9 @@ try:
         # check if the inputted number has more duplicates than current count_duplicate
         if numbers.count(number) > count_duplicate:
             # set the inputted number as number_most_duplicate if true
+            number_most_duplicate = number
             # set the count of inputted number in numbers array as count_duplicate
-            print(count_duplicate)
             count_duplicate = numbers.count(number)
-            print(count_duplicate)
 
 
 # catch error if input is invalid
