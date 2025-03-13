@@ -3,9 +3,10 @@ numbers = []
 
 # loop while input is valid
 while True:
-    print("loop")
     # try if input is valid
+    try:
         # input number
+        number = int(input("Enter number: "))
 
         # check if number is in numbers array
             # print "Unique" if true
@@ -14,4 +15,6 @@ while True:
             # print "Duplicate"
 
     # catch error if input is invalid
+    except:
+        break
         # break loop
