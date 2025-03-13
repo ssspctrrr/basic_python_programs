@@ -4,11 +4,12 @@ numbers = []
 # try if input is value
 try:
     # loop while input is valid
+    while True:
         # input number and append to numbers
-    number = int(input("Enter number: "))
+        numbers.append(int(input("Enter number: ")))
 
 # catch error if input is invalid
 except:
-    print("invalid")
+    print(numbers)
     # get average of numbers
     # print average
