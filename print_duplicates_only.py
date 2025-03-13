@@ -13,8 +13,9 @@ for i in range(1, 11):
         # append number to unique_numbers if true
         unique_numbers.append(number)
     # else check if number is not yet in duplicate_numbers
+    elif number not in duplicate_numbers:
         # append number to duplicate_numbers if true
-
-print(unique_numbers)
+        duplicate_numbers.append(number)
 
 # print duplicate_numbers
+print(duplicate_numbers)
