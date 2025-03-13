@@ -10,6 +10,7 @@ try:
 
 # catch error if input is invalid
 except:
-    print("invalid")
     # sort numbers array
+    numbers.sort()
     # print sorted_numbers
+    print(numbers)
