@@ -15,10 +15,10 @@ while True:
             # append to numbers if true
             numbers.append(number)
 
-        print(numbers)
-            
         # else if number is not in numbers array
+        else:
             # print "Duplicate"
+            print("Duplicate")
 
     # catch error if input is invalid
     except:
