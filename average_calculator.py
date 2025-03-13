@@ -10,6 +10,5 @@ try:
 
 # catch error if input is invalid
 except:
-    print(numbers)
-    # get average of numbers
-    # print average
+    # print average of numbers
+    print(sum(numbers) / len(numbers))
